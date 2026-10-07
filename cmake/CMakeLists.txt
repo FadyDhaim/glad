@@ -1,7 +1,8 @@
 #  configuration variables:
 #    GLAD_SOURCES_DIR: path to the sources of glad (=python module)
 
-cmake_minimum_required(VERSION 3.12)
+cmake_minimum_required(VERSION 3.12...4.3 FATAL_ERROR)
+
 project(glad C)
 
 set(
